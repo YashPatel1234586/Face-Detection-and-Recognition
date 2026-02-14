@@ -1,4 +1,5 @@
 import cv2
+import streamlit as st
 
 def detect_faces_and_features(frame, face_cascade, eye_cascade, smile_cascade):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
